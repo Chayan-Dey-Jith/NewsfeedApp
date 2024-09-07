@@ -1,0 +1,28 @@
+{
+  "name": "newsfeedapp_v1.0",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+     "postinstall": "patch-package",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "expo": "~51.0.28",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-pager-view": "6.3.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-tab-view": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "patch-package": "^8.0.0"
+  },
+  "private": true
+}
+
